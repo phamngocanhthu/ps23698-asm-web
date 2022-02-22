@@ -1,8 +1,10 @@
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 .logo img{
-    margin-left: 200px;
-    padding-left: 500PX;
 }
 header{
     height: 110px;
@@ -23,7 +25,7 @@ header{
 .menu-logo .logo{
     position: absolute;
     top: 10px;
-    right:   10px;
+    left:   20px;
 
 }
 .menu-logo nav{
