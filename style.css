@@ -1,0 +1,88 @@
+
+
+.logo img{
+    margin-left: 200px;
+    padding-left: 500PX;
+}
+header{
+    height: 110px;
+}
+.address{
+    height: 40px;
+    text-align: center;
+    background-color:#66A5AD;
+    color: white;
+    line-height: 50px;
+}
+.menu-logo{
+    margin: 1px;
+    height: 70px;
+    position: relative;
+    background: #C4DFE6;
+}
+.menu-logo .logo{
+    position: absolute;
+    top: 10px;
+    right:   10px;
+
+}
+.menu-logo nav{
+    position: absolute;
+    right:   10px;
+    font-variant:normal;
+    font-size: 30px;
+}
+.menu-logo nav a{
+    text-decoration: none;
+    color: black;
+    line-height: 70px;
+    margin: 0 30px;
+
+}
+.menu-logo nav a:hover{
+    color: white;
+    font-weight: bold;  /*rê chuột đổi màu */
+}
+
+
+
+.banner{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 30px;
+
+}
+.banner img{
+    max-width: 10000000px;
+    border-radius: 30px;
+
+}
+.heart{
+    font-size: 30px;
+    color: red; /* tiêu đề */
+    text-align: center;
+    margin: 50px;
+    font-variant: inherit;
+}
+.name .sad .happy{
+    width: 250px;
+    display: inline-block;
+    margin: 20px 3px;
+}
+.happy:hover{
+    border: 1px solid red;
+}
+.name .sad .happy img{
+    max-width: 100%;
+
+}
+.sad{
+    position: relative;
+    left: 100px;
+    float: left;
+    font-variant: small-caps;
+}
+.footer-center{
+    text-align: center;
+}

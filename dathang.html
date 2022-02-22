@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>33-PS23698-Phạm Ngọc Anh Thư</title>
+    <style>
+        body{
+            font-variant: small-caps;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post" enctype="multipart/form-data">
+        <div>
+            <label>Họ tên:</label><br/>
+            <input type="text">
+        </div>
+        <div>
+            <label>Giới tính:   </label>
+            <label>Nam<input type="radio" name="gender"></label>
+            <label>Nữ<input type="radio" name="gender"></label>
+        </div>
+        <div>
+            <label>Hình ảnh</label>
+            <input type="file">
+        </div>
+        <div>
+            <label>Quốc tịch</label><br />
+            <select>
+                <option value="1" >Việt nam</option>
+                <option value="2">lào</option>
+                <option value="3">campuchia</option>
+                <option value="4">thái lan</option>
+            </select>
+        </div>
+        <div>
+            <label>Sản phẩm</label><br/>
+            <label><input type="checkbox" name="hobby">Quần jean</label>
+            <label><input type="checkbox" name="hobby" checked>Áo khoác</label>
+            <label><input type="checkbox" name="hobby">Áo thun</label>
+            <label><input type="checkbox" name="hobby">Quần babgy</label>
+        </div>
+        <div>
+            <label>Ghi chú</label><br/>
+            <textarea name="" id="" cols="30" rows="4"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Đặt hàng">
+            <input type="reset" value="Thoát">
+        </div>
+    </form>
+</body>
+</html>
